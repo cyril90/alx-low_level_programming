@@ -27,7 +27,7 @@ char *_strstr(char *haystack, char *needle)
 			{
 				if (haystack[x] == needle[j])
 				x++, j++;
-				
+
 				else
 				break;
 			} /* if matched throughout, return haystack */
@@ -37,7 +37,7 @@ char *_strstr(char *haystack, char *needle)
 				return (haystack + i);
 			}
 		}
-		
+
 		i++;
 	}
 
